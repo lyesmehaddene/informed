@@ -1,0 +1,41 @@
+<div class="full-height">
+  <div class="d-flex">
+  <div class="new-post-h1">
+    NOUVEL ARTICLE
+  </div>
+</div>
+<div class="container-form pt-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6 col-lg-4">
+          <%= simple_form_for :post, url: posts_path, method: :post do |f| %>
+            <div class="form-inputs">
+                <div class="col-12">
+                  <%= f.input :title,
+                    label: false,
+                    required: true,
+                    autofocus: true,
+                    placeholder: "Titre de l'article",
+                    input_html: { autocomplete: "Title" },
+                    class: "new-post-input" %>
+                </div>
+                <div class="col-12">
+                  <%= f.input :url,
+                    label: false,
+                    placeholder: "URL de l'article source",
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "url" }, class: 'new-post-input m-4' %>
+                </div>
+                <div class="col-12">
+                  <%= f.input :content, as: :text, label: false, placeholder: "Contenu de votre article", input_html: { rows: 4 }, class: "new-commentary", required: false %>
+                  </div>
+              </div>
+              <div class="form-actions d-flex">
+                <%= f.button :submit, "Créer un nouvel article", class: 'nav-primary-button' %>
+              </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>

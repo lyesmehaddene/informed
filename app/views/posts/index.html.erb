@@ -1,0 +1,26 @@
+<div class="container-1200">
+<%# list each post in a card with its title comment and a CTA %>
+  <div class="title-container">
+    <h1 class="all-posts-h1">
+    TOUS NOS ARTICLES
+    </h1>
+  </div>
+
+  <div class="posts-container">
+    <% @posts.each do |post| %>
+      <div class="post-card">
+        <div class="post-card-content">
+          <div class="post-card-title">
+            <%= post.title.capitalize %>
+          </div>
+          <div class="post-card-comment">
+            <%= post.content.capitalize %>
+          </div>
+          <div class="post-card-action">
+          <%= link_to "Lire l'article", post_path(post), class: "cards-index-button" %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+</div>
+</div>

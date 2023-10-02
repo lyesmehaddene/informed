@@ -1,0 +1,92 @@
+.nav-primary-button{
+  background-color: $black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  max-width: fit-content;
+  margin: 10px;
+  font-family: 'popins', sans-serif;
+}
+
+.nav-secondary-button{
+  background-color: $white;
+  color: $black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  max-width: fit-content;
+  margin: 10px;
+  border: 1px solid $black;
+  font-family: 'popins', sans-serif;
+}
+
+.back-secondary-button{
+  color: $black;
+  padding: 10px 20px;
+  text-decoration: none;
+  max-width: fit-content;
+  margin: 10px;
+  font-family: 'popins', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  i{
+    margin-right: 5px;
+  }
+}
+
+.back-secondary-button:hover{
+  background-color: $black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  max-width: fit-content;
+  margin: 10px;
+  font-family: 'popins', sans-serif;
+}
+
+.hero-primary-button{
+  background-color: $black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  max-width: fit-content;
+  margin: 10px;
+  font-family: 'roboto', sans-serif;
+  z-index: 3;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero-primary-button:hover{
+  background-color: $light-gray;
+  color: $black;
+}
+
+.cards-index-button{
+  background-color: $black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  max-width: fit-content;
+  font-family: 'popins', sans-serif;
+}
+
+.cards-index-button:hover{
+  background-color: $light-gray;
+  color: $black;
+}
+
+.nav-primary-button:hover{
+  background-color: $light-gray;
+  color: $black;
+  border: 1px solid $black;
+}
+
+.nav-secondary-button:hover{
+  background-color: $black;
+  color: $white;
+}

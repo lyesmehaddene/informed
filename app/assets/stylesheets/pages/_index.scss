@@ -1,0 +1,9 @@
+// Import page-specific CSS files here.
+@import "home";
+@import "index_posts";
+@import "show_posts";
+@import "new_posts";
+
+body{
+  background-color: white;
+}

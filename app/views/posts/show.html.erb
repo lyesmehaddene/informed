@@ -1,0 +1,46 @@
+<div class="container-1200">
+  <div class="post-action">
+    <%= link_to posts_path, class: "back-secondary-button" do %>
+      <i class="fas fa-arrow-left"></i> Retour à la liste des articles
+    <% end %>
+  </div>
+  <div class="title-container">
+    <div class="post-h1">
+      <%= @post.title.upcase %>
+    </div>
+    <div class="post-content">
+      <%= @post.content %>
+    </div>
+  </div>
+  <div class="cta-centered">
+    <%= link_to "Accéder à l'article source", @post.url, class: "nav-primary-button" %>
+  </div>
+  <div class="commentaries-container">
+    <div class="commentaries-title">
+      COMMENTAIRES
+    </div>
+    <% @post.comments.order(created_at: :desc).each do |comment| %>
+      <div class="commentaries-card">
+        <div class="commentary-header">
+          <div class="commentary-author">
+            <%= comment.user.username.capitalize %>
+          </div>
+          <div class="commentary-date">
+            Le <%= comment.created_at.strftime("%d/%m/%Y") %>
+          </div>
+        </div>
+        <div class="commentary-content">
+          <%= comment.content %>
+        </div>
+      </div>
+    <% end %>
+    <div class="new-commentary-container">
+      <%= simple_form_for [@post, Comment.new] do |f| %>
+      <%= f.input :content, as: :text, label: "Ajouter un nouveau commentaire", input_html: { rows: 4 }, class: "new-commentary", required: false %>
+      <div class="new-commentary-button">
+      <%= f.button :submit, "Publier", class: "nav-primary-button" %>
+      </div>
+  <% end %>
+    </div>
+  </div>
+</div>

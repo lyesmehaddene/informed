@@ -1,0 +1,45 @@
+<div class="full-height">
+  <div class="container-form pt-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="d-flex">
+          <div class="new-post-h1">
+            BIENVENUE !
+          </div>
+        </div>
+          <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+            <%= f.error_notification %>
+              <div class="form-inputs">
+                <div class="row">
+                  <%= f.input :email,
+                              label: "Email",
+                              required: true,
+                              autofocus: true,
+                              input_html: { autocomplete: "email" }%>
+                  <%= f.input :username,
+                              label: "Nom d'utilisateur",
+                              required: true,
+                              autofocus: true,
+                              input_html: { autocomplete: "username" }%>
+                  <%= f.input :password,
+                              label: "Mot de passe",
+                              required: true,
+                              hint: ("#{@minimum_password_length} caractères minimum" if @minimum_password_length),
+                              input_html: { autocomplete: "Mot de passe" }%>
+                    <%= f.input :password_confirmation,
+                              label: "Confirmer mot de passe",
+                              required: true,
+                              input_html: { autocomplete: "Confirmer mot de passe" }%>
+                </div>
+
+                <div class="form-actions">
+                  <%= f.button :submit, "S'inscrire", class: 'nav-primary-button'%>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
