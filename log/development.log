@@ -13699,3 +13699,1400 @@ Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 110
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
   [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/" for 127.0.0.1 at 2023-10-27 16:55:18 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 53.5ms | Allocations: 45462)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 1165)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 222)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 74300)
+Completed 200 OK in 84ms (Views: 79.0ms | ActiveRecord: 0.0ms | Allocations: 78603)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 16:59:32 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 685)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 679)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 30)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 5527.0ms | Allocations: 89405)
+Completed 200 OK in 5528ms (Views: 5527.4ms | ActiveRecord: 0.0ms | Allocations: 89728)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 16:59:47 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 5058.8ms | Allocations: 81542)
+Completed 200 OK in 5060ms (Views: 5059.2ms | ActiveRecord: 0.0ms | Allocations: 81810)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:00:35 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 5135.2ms | Allocations: 81656)
+Completed 200 OK in 5136ms (Views: 5135.7ms | ActiveRecord: 0.0ms | Allocations: 81922)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:01:00 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 5133.3ms | Allocations: 81960)
+Completed 200 OK in 5134ms (Views: 5133.7ms | ActiveRecord: 0.0ms | Allocations: 82223)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:06:38 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 648)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 10847)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 11112)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:09:53 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1004)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 1009)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 205)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 12420)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 13293)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-10-27 17:12:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 188.6ms | Allocations: 286996)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 694)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 210.4ms | Allocations: 297381)
+Completed 200 OK in 261ms (Views: 212.5ms | ActiveRecord: 28.4ms | Allocations: 308114)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:12:05 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 648)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 662)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 66.1ms | Allocations: 10787)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 11090)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:12:06 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (2.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1069)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 750)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 11697)
+Completed 200 OK in 28ms (Views: 16.8ms | ActiveRecord: 5.1ms | Allocations: 14786)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:12:08 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 568)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 660)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 10757)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.6ms | Allocations: 11103)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 13]]
+  [1m[36mComment Load (1.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 13]]
+  [1m[36mUser Destroy (2.8ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 13]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 14]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 14]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 14]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 15]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 15]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 15]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 16]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 16]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 16]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 17]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 17]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 17]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 18]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 18]]
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 18]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 19]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 19]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 19]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 20]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 20]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 20]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 21]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 21]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 21]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 22]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = $1[0m  [["user_id", 22]]
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 22]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "eric@conn.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (2.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "eric@conn.co"], ["encrypted_password", "[FILTERED]"], ["username", "leighann"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:16.144009"], ["updated_at", "2023-10-27 15:12:16.144009"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tonisha@raynor.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "tonisha@raynor.co"], ["encrypted_password", "[FILTERED]"], ["username", "opal"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:16.542815"], ["updated_at", "2023-10-27 15:12:16.542815"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ramiro_little@bartoletti.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "ramiro_little@bartoletti.net"], ["encrypted_password", "[FILTERED]"], ["username", "arlean"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:16.938879"], ["updated_at", "2023-10-27 15:12:16.938879"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jacinto@dietrich.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "jacinto@dietrich.co"], ["encrypted_password", "[FILTERED]"], ["username", "hiram.goodwin"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:17.334561"], ["updated_at", "2023-10-27 15:12:17.334561"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "bobbye.will@marks.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "bobbye.will@marks.co"], ["encrypted_password", "[FILTERED]"], ["username", "eleonor.champlin"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:17.730610"], ["updated_at", "2023-10-27 15:12:17.730610"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ernesto@kutch.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "ernesto@kutch.com"], ["encrypted_password", "[FILTERED]"], ["username", "delmar_hudson"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:18.127516"], ["updated_at", "2023-10-27 15:12:18.127516"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "royce@ullrich.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "royce@ullrich.io"], ["encrypted_password", "[FILTERED]"], ["username", "shay"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:18.523257"], ["updated_at", "2023-10-27 15:12:18.523257"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "joanna@walker.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "joanna@walker.net"], ["encrypted_password", "[FILTERED]"], ["username", "cherie.muller"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:18.919031"], ["updated_at", "2023-10-27 15:12:18.919031"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "darnell_parisian@robel.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "darnell_parisian@robel.name"], ["encrypted_password", "[FILTERED]"], ["username", "elouise_boehm"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:19.314902"], ["updated_at", "2023-10-27 15:12:19.314902"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mai.blanda@runte.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "mai.blanda@runte.com"], ["encrypted_password", "[FILTERED]"], ["username", "adam_aufderhar"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:12:19.710509"], ["updated_at", "2023-10-27 15:12:19.710509"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:12:21 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 568)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 660)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 10781)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.3ms | Allocations: 11089)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:12:22 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 562)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 660)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 10787)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.3ms | Allocations: 11091)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:18:35 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 647)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 10714)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 10976)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:18:40 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 10711)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 10970)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:18:42 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 658)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 660)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10895)
+Completed 200 OK in 39ms (Views: 17.0ms | ActiveRecord: 5.9ms | Allocations: 14092)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (8311.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "rails_share_posts_development"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (42.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "rails_share_posts_development"[0m
+  [1m[35m (27.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "rails_share_posts_test"[0m
+  [1m[35m (93.5ms)[0m  [1m[35mCREATE DATABASE "rails_share_posts_development" ENCODING = 'unicode'[0m
+  [1m[35m (56.4ms)[0m  [1m[35mCREATE DATABASE "rails_share_posts_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "comments" CASCADE[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "content" text NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "user_id" bigint NOT NULL, "post_id" bigint NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE INDEX "index_comments_on_post_id" ON "comments" ("post_id")[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE INDEX "index_comments_on_user_id" ON "comments" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "posts" CASCADE[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "posts" ("id" bigserial primary key, "title" character varying NOT NULL, "content" text NOT NULL, "url" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "user_id" bigint NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "username" character varying NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_2fd19c0db7"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20230920123710)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20230329154841),
+(20230920123056);
+
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-10-27 15:19:41.774966"], ["updated_at", "2023-10-27 15:19:41.774966"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "0a17ab7bb25d18c578b6370830d08fa29dc2628d"], ["created_at", "2023-10-27 15:19:41.779619"], ["updated_at", "2023-10-27 15:19:41.779619"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "comments" CASCADE[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "content" text NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "user_id" bigint NOT NULL, "post_id" bigint NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE INDEX "index_comments_on_post_id" ON "comments" ("post_id")[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE INDEX "index_comments_on_user_id" ON "comments" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "posts" CASCADE[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "posts" ("id" bigserial primary key, "title" character varying NOT NULL, "content" text NOT NULL, "url" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "user_id" bigint NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "username" character varying NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_2fd19c0db7"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20230920123710)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20230329154841),
+(20230920123056);
+
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-10-27 15:19:41.826541"], ["updated_at", "2023-10-27 15:19:41.826541"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2023-10-27 15:19:41.829527"], ["key", "environment"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "0a17ab7bb25d18c578b6370830d08fa29dc2628d"], ["created_at", "2023-10-27 15:19:41.832105"], ["updated_at", "2023-10-27 15:19:41.832105"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "shana@windler-medhurst.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "shana@windler-medhurst.net"], ["encrypted_password", "[FILTERED]"], ["username", "nisha"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:42.402222"], ["updated_at", "2023-10-27 15:19:42.402222"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "minnie@klocko.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "minnie@klocko.name"], ["encrypted_password", "[FILTERED]"], ["username", "kristofer.cummings"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:42.800726"], ["updated_at", "2023-10-27 15:19:42.800726"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "loree@mosciski-bruen.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "loree@mosciski-bruen.org"], ["encrypted_password", "[FILTERED]"], ["username", "margaret"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:43.199079"], ["updated_at", "2023-10-27 15:19:43.199079"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "claudio.wilkinson@toy.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "claudio.wilkinson@toy.info"], ["encrypted_password", "[FILTERED]"], ["username", "stewart"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:43.597133"], ["updated_at", "2023-10-27 15:19:43.597133"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "alison@schuster.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "alison@schuster.co"], ["encrypted_password", "[FILTERED]"], ["username", "nisha"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:43.996475"], ["updated_at", "2023-10-27 15:19:43.996475"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grace@vandervort.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "grace@vandervort.org"], ["encrypted_password", "[FILTERED]"], ["username", "alisa"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:44.396248"], ["updated_at", "2023-10-27 15:19:44.396248"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "courtney@schiller.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "courtney@schiller.net"], ["encrypted_password", "[FILTERED]"], ["username", "charlena.kuhic"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:44.794091"], ["updated_at", "2023-10-27 15:19:44.794091"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "byron@blanda-harber.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "byron@blanda-harber.name"], ["encrypted_password", "[FILTERED]"], ["username", "deshawn"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:45.191003"], ["updated_at", "2023-10-27 15:19:45.191003"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "brett.rolfson@bayer.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "brett.rolfson@bayer.co"], ["encrypted_password", "[FILTERED]"], ["username", "nakesha.pagac"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:45.590972"], ["updated_at", "2023-10-27 15:19:45.590972"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tyler@rolfson-conroy.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "username", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "tyler@rolfson-conroy.biz"], ["encrypted_password", "[FILTERED]"], ["username", "rhett_halvorson"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-10-27 15:19:45.990690"], ["updated_at", "2023-10-27 15:19:45.990690"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPost Create (1.1ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "transform wireless partnerships"], ["content", "Aut voluptates maiores. Possimus sit accusamus. Vero aut sunt. Quidem incidunt eligendi. Adipisci odit vel. Doloremque omnis molestias. Quaerat consectetur et. Quis omnis ipsa. Molestias voluptatem magnam. Temporibus veniam facilis. Recusandae incidunt perspiciatis. Doloremque voluptate non. Magni voluptas incidunt. Fugiat quaerat molestiae. Perspiciatis id aut. Culpa facilis veniam. Et sint illum. Quis minus voluptates. Aut ut voluptate. Aut magnam a. Sed magnam iste. Ut ut provident. Voluptas qui quidem. Sint porro aliquid. Voluptates perspiciatis ea. Et aut deserunt. Maiores hic vero. Impedit velit non. Voluptatem rerum non. Rerum quod vitae."], ["url", "http://trantow-medhurst.net/carmen"], ["created_at", "2023-10-27 15:19:46.009903"], ["updated_at", "2023-10-27 15:19:46.009903"], ["user_id", 7]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "innovate best-of-breed e-markets"], ["content", "Nihil quibusdam necessitatibus. Ullam est dolores. Veniam magni eos. Eaque dolor provident. Fugiat voluptatem quis. Cupiditate iste distinctio. Expedita ut asperiores. Inventore mollitia dolores. Quo quae natus. Quia eos sequi. Vel accusantium excepturi. Quisquam nisi et. Occaecati consectetur dolores. Quis eaque dolorem. Occaecati error rem. Itaque in animi. Quis voluptate autem. Possimus itaque voluptatem. Voluptas ea consequatur. Magni ab alias. Aut explicabo debitis. Sint provident omnis. Asperiores ab quia. Quas ut dolores. Sint modi necessitatibus. Nihil aliquam maxime. Vel et nisi. Suscipit atque itaque. Voluptatem cumque delectus. Est sit eum."], ["url", "http://mills.org/otha"], ["created_at", "2023-10-27 15:19:46.016927"], ["updated_at", "2023-10-27 15:19:46.016927"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "disintermediate open-source models"], ["content", "Dignissimos laboriosam quia. Qui consequatur occaecati. Corporis eum dolor. Neque dolorum omnis. Ut id enim. Quia corporis voluptatem. Ipsam et laudantium. Fuga quia cupiditate. Sit voluptatem unde. Modi ab occaecati. Ut iusto aliquam. Animi veritatis aliquam. Et hic delectus. Quia libero sed. Vitae accusantium autem. Nemo perspiciatis rem. Qui aut facere. Est minima eveniet. Et quas qui. Eaque ut aut. Cum ratione atque. Esse in in. Sequi dignissimos a. Amet maxime quis. Possimus laudantium quam. Qui illum minus. Et voluptatum velit. Laudantium ea minus. Rerum sapiente et. Dolores odio ea."], ["url", "http://parker-towne.io/adrian"], ["created_at", "2023-10-27 15:19:46.022712"], ["updated_at", "2023-10-27 15:19:46.022712"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "facilitate wireless web-readiness"], ["content", "Et fugiat molestias. Minus et facilis. Voluptatum dolorem et. Facere dolores ea. Nulla assumenda laudantium. Autem eum minima. Veniam molestiae rem. Numquam suscipit et. Et sequi tempora. Temporibus blanditiis beatae. Est possimus placeat. Pariatur officia mollitia. Quis hic quas. Non ex rerum. Maxime consectetur sit. Alias qui perferendis. Aspernatur cum recusandae. Laborum architecto pariatur. Ullam est aliquid. Minus voluptate numquam. Rerum amet minus. Dolorem ut atque. Aut commodi id. Voluptates veniam eius. Et dolorem non. Et quidem harum. Neque culpa error. Sed explicabo dignissimos. Deleniti velit nostrum. Sunt accusamus dolorum."], ["url", "http://maggio.name/matthew"], ["created_at", "2023-10-27 15:19:46.028778"], ["updated_at", "2023-10-27 15:19:46.028778"], ["user_id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "orchestrate turn-key e-tailers"], ["content", "Rerum autem debitis. Excepturi reprehenderit voluptatem. Exercitationem non neque. Rem ut praesentium. Quam impedit eligendi. Omnis esse dolorem. Magni omnis mollitia. Dolores aliquam vitae. Omnis reprehenderit possimus. Illo neque consequuntur. Ea vel qui. Debitis magnam sunt. Omnis voluptatem sit. Nobis qui illum. Fuga quia quidem. Veniam optio id. Voluptas ipsa fugiat. Blanditiis debitis omnis. Dolores illum adipisci. Pariatur in sint. Aut qui ab. Eum eum eligendi. Dolorum vel quasi. Debitis odit quo. Similique cum eos. Et eos iusto. Laboriosam enim sed. Tenetur animi ut. Enim quia accusamus. Rerum officiis rem."], ["url", "http://mills.net/verdell"], ["created_at", "2023-10-27 15:19:46.034507"], ["updated_at", "2023-10-27 15:19:46.034507"], ["user_id", 7]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "leverage strategic eyeballs"], ["content", "Possimus in optio. Facilis sit dolorem. Rerum sint nostrum. Quam qui facilis. Unde nihil ut. Ipsam omnis et. Nihil iusto dolore. Est et ullam. Quis aliquam libero. Nemo corrupti molestias. Id tenetur enim. Consectetur ea perspiciatis. Dolorum qui officiis. Eum a qui. Eveniet voluptas ea. Aut consequatur ratione. Rerum corrupti est. Consequatur quasi tempore. Et recusandae rerum. Iste vel non. Est magnam dolor. Praesentium qui sed. Fugit suscipit tempore. Facilis qui unde. Ratione est ut. In vitae fuga. Minima atque dolorum. Velit reprehenderit nisi. Nesciunt animi facere. Fuga ea natus."], ["url", "http://hilll.com/josh"], ["created_at", "2023-10-27 15:19:46.040101"], ["updated_at", "2023-10-27 15:19:46.040101"], ["user_id", 6]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "architect scalable systems"], ["content", "Quos debitis quia. Labore atque ad. Nulla voluptas voluptatem. Expedita et deserunt. Quam cupiditate consequatur. Incidunt qui ex. Voluptate a dolor. Ut aliquid officia. Et quae repellat. Cupiditate nihil quod. Sed repellat possimus. Qui ratione dolorem. Amet fugiat debitis. Illo aut corrupti. Facilis temporibus velit. Reiciendis deleniti aut. Porro aspernatur vero. Id consequatur cum. Nihil dolorum animi. Est eveniet quod. Ullam sit et. Delectus corrupti officia. Illum aliquam earum. Dolores iste perferendis. Qui sed ut. Suscipit earum eveniet. Suscipit rerum quidem. Hic quibusdam officia. Vel velit et. Et rerum velit."], ["url", "http://fadel.net/teresia_wunsch"], ["created_at", "2023-10-27 15:19:46.045707"], ["updated_at", "2023-10-27 15:19:46.045707"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "brand 24/365 ROI"], ["content", "Quis nemo qui. Est praesentium aliquid. Blanditiis dolor corporis. Repellendus blanditiis non. Voluptas delectus eius. Alias ut omnis. Nisi error laborum. Qui voluptates vel. Ipsa dolorem delectus. At quidem hic. Debitis atque assumenda. Molestias illum illo. Voluptas quis vero. Natus omnis assumenda. Tenetur et voluptatum. Omnis dolore sit. Alias corporis aperiam. Dolor quam sed. Dolore illo quod. Consequuntur aut ipsa. Aliquid sit quae. Est sed iusto. Aut assumenda atque. Repudiandae voluptatibus quibusdam. Non aut placeat. Possimus laudantium tenetur. Quia sunt totam. Et recusandae dolore. Facere nam dolor. Aut officiis quae."], ["url", "http://stokes-cummings.info/ruby"], ["created_at", "2023-10-27 15:19:46.051100"], ["updated_at", "2023-10-27 15:19:46.051100"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "scale value-added web-readiness"], ["content", "Fugiat id molestiae. Expedita asperiores vel. Aut alias voluptatem. Odit voluptatem sint. Atque deleniti cum. Pariatur non et. In vel nulla. Eos sunt vel. Et quia quia. Illum rerum nisi. Assumenda ratione officiis. Eum hic illum. Veritatis et impedit. Aut similique ut. Et quia veritatis. In culpa inventore. Ea quis voluptate. Qui quas repellendus. Quis culpa architecto. Quasi qui est. Dicta quis non. Atque autem nam. Quia in tempora. Rem dicta repellat. Consequatur odio necessitatibus. Enim ipsum at. Dolor nesciunt eos. Eum temporibus est. Et voluptates itaque. Rerum quis facilis."], ["url", "http://streich-romaguera.co/edward"], ["created_at", "2023-10-27 15:19:46.056684"], ["updated_at", "2023-10-27 15:19:46.056684"], ["user_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "aggregate front-end e-commerce"], ["content", "Aliquam est eveniet. Rerum sit aliquid. Non ut quo. Quod ad sit. Dolor velit repellat. Pariatur error et. Esse laborum consequatur. Dolores quod sit. Et dolor qui. Veritatis aperiam et. Quas sed dolorem. Et sed natus. Corrupti dolorem et. At dolorem dolor. Unde mollitia numquam. Nulla aut tenetur. Architecto nihil quas. Nulla ut qui. Qui maxime accusantium. Qui illo nesciunt. Et non voluptatem. Officia amet dolorum. Quia ratione et. Repudiandae deleniti accusantium. Dolor quos aspernatur. Voluptas quia quia. Saepe eveniet sed. Et maiores nostrum. Esse libero numquam. Odio voluptatem consequatur."], ["url", "http://thiel-lynch.info/meagan.tillman"], ["created_at", "2023-10-27 15:19:46.062409"], ["updated_at", "2023-10-27 15:19:46.062409"], ["user_id", 6]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Create (0.7ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "incentivize ubiquitous content"], ["content", "Ut placeat eligendi. Autem quis itaque. Odit deserunt quas. Tempora quidem molestias. Consequatur aliquam in. Deleniti libero suscipit. Doloremque aspernatur aut. Explicabo ratione commodi. Sapiente reiciendis nihil. Facere aut animi. Itaque labore maxime. Expedita numquam ut. Sequi autem beatae. Et voluptate recusandae. Magnam neque a. Voluptatem molestias cum. Dolore adipisci rerum. Aliquid sequi quisquam. Veniam numquam quo. Eveniet modi quod. Ex ea excepturi. Sequi consectetur dolor. Et reprehenderit odit. Voluptate est ab. Ducimus molestias enim. Nulla enim quod. Asperiores alias sunt. Consequatur eligendi voluptatum. Perspiciatis fugiat ut. Velit dolorem modi."], ["url", "http://herman.io/loria_hegmann"], ["created_at", "2023-10-27 15:19:46.068123"], ["updated_at", "2023-10-27 15:19:46.068123"], ["user_id", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "disintermediate user-centric e-tailers"], ["content", "Illum et voluptas. Nobis labore et. Voluptas temporibus optio. Possimus velit consequatur. Blanditiis libero facilis. Beatae eos delectus. Quo totam quasi. Sunt sit dolor. Assumenda nisi aut. Impedit qui harum. Voluptatibus qui rerum. Illum et eligendi. Mollitia voluptas excepturi. Beatae et rerum. Provident odio harum. Nam dolorem qui. Esse voluptatibus repellat. Minus vel odit. Quae tempora et. Recusandae autem ea. Similique temporibus quia. Adipisci architecto consequatur. Nesciunt sit est. Totam non accusamus. Ut voluptatem laborum. Fuga praesentium est. Omnis perspiciatis minima. Ab tempore reiciendis. In quis labore. Odit occaecati doloremque."], ["url", "http://fisher-nader.net/hallie.grimes"], ["created_at", "2023-10-27 15:19:46.074190"], ["updated_at", "2023-10-27 15:19:46.074190"], ["user_id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "synthesize plug-and-play paradigms"], ["content", "Et omnis quia. Facere illo non. Odio vitae architecto. Labore quia provident. Quo rerum libero. Quae commodi iste. Quo corrupti est. Rerum soluta vel. Cum doloribus odit. Ab enim laboriosam. Dolore esse sequi. Explicabo dolorum autem. Dolorem corporis amet. Rerum et dolores. Tenetur nam repellendus. Veritatis velit magnam. Necessitatibus excepturi distinctio. Quos explicabo inventore. Natus quasi eveniet. Possimus quam officiis. Nobis quos dolor. Temporibus saepe et. Voluptatem id nemo. Ratione quos fuga. Maiores in aut. Soluta quis non. Aut ipsa sunt. Explicabo suscipit quaerat. Error eum quod. Quibusdam ullam rem."], ["url", "http://weimann.io/shanel_doyle"], ["created_at", "2023-10-27 15:19:46.086941"], ["updated_at", "2023-10-27 15:19:46.086941"], ["user_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "expedite collaborative systems"], ["content", "Nihil pariatur non. Omnis voluptate officiis. Culpa vitae error. Et numquam nobis. Minus nostrum voluptas. Fuga in sit. Cumque et explicabo. Error repellat quidem. Numquam aut minus. Aut voluptas ut. Pariatur eveniet facere. Fugit eos excepturi. Quos laboriosam animi. Odit quo ex. Facere earum porro. Est dolore qui. Modi ea qui. At tempora adipisci. Repellendus dolor asperiores. Ex corrupti porro. Est praesentium omnis. Aut voluptate doloribus. Consequuntur vitae non. Consequuntur ut possimus. Velit quidem quos. Molestiae debitis quod. Omnis molestias aut. Occaecati cupiditate ex. Iste delectus occaecati. Nobis nam rem."], ["url", "http://ledner-roberts.org/reinaldo.hodkiewicz"], ["created_at", "2023-10-27 15:19:46.092450"], ["updated_at", "2023-10-27 15:19:46.092450"], ["user_id", 7]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "empower real-time communities"], ["content", "Dicta rerum quaerat. Qui ipsa ducimus. Praesentium laborum quia. Velit est doloremque. Perferendis est illum. Qui dolores molestias. Est perferendis voluptatem. Culpa sint ut. Rerum delectus consequatur. Eum eius quasi. Quasi tenetur maiores. Distinctio vel quis. Consequatur tempora placeat. Sint voluptatem beatae. Est in consequatur. Voluptatem quam fugit. Ratione labore est. Tempora cum modi. Doloremque numquam id. Quis quisquam earum. Sit tempore occaecati. Et natus officia. Eligendi impedit pariatur. Mollitia at maxime. Nesciunt ratione quisquam. Quos ut maiores. Autem architecto officiis. Assumenda laboriosam ut. Esse ab quas. Nemo inventore quisquam."], ["url", "http://hoeger.net/dwight"], ["created_at", "2023-10-27 15:19:46.098126"], ["updated_at", "2023-10-27 15:19:46.098126"], ["user_id", 9]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "exploit out-of-the-box methodologies"], ["content", "Repellendus vel est. Sunt autem aperiam. Et dolorum qui. Qui dignissimos aut. Voluptatem eligendi in. Aspernatur ea ut. Amet molestias nulla. Soluta tenetur est. Modi suscipit dolorem. Molestias aliquid quia. Accusamus quis asperiores. Expedita sint ut. Accusamus exercitationem eius. Excepturi rerum quibusdam. Eius ut cumque. Cumque nulla rerum. Eos iusto voluptatem. Aut culpa debitis. Voluptatem pariatur mollitia. Aut nesciunt asperiores. Rem hic et. Molestiae eos eligendi. Sit magnam possimus. Aut incidunt quidem. Magni veritatis eligendi. Eos voluptatum enim. Quas id est. Fugit qui quo. Quisquam omnis commodi. Perferendis eius ut."], ["url", "http://waters.info/columbus"], ["created_at", "2023-10-27 15:19:46.103379"], ["updated_at", "2023-10-27 15:19:46.103379"], ["user_id", 6]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "architect cutting-edge initiatives"], ["content", "Est non et. Provident fugit inventore. Consequuntur dicta nemo. Molestias minus quae. Maiores est fuga. Odit atque similique. Est tempora vel. Eaque veniam excepturi. Reprehenderit sunt porro. Recusandae voluptas quaerat. Fuga dolorem sunt. Quibusdam laborum numquam. Amet dolorem dolor. Aut blanditiis possimus. Qui sit quos. Qui aut similique. Officia beatae et. Autem officiis quia. Praesentium eveniet fuga. Sit sed eos. Ut minus hic. Totam consectetur officia. Quia hic sunt. Tempora laborum et. Sunt sequi voluptas. Dolores voluptatibus et. Natus ut sed. Quos et eos. Ut illum unde. Est consequuntur aut."], ["url", "http://kuphal-borer.org/lucienne_barton"], ["created_at", "2023-10-27 15:19:46.108718"], ["updated_at", "2023-10-27 15:19:46.108718"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "monetize bricks-and-clicks interfaces"], ["content", "Temporibus autem optio. Ipsa est in. Molestias sit doloribus. Exercitationem in qui. Est aut quam. Nemo adipisci sint. Unde aperiam sequi. Omnis quasi nam. Et a quae. Perspiciatis nisi fuga. Eligendi accusamus incidunt. Dolorem voluptas adipisci. Nihil omnis necessitatibus. Sint cupiditate omnis. Id omnis consequuntur. Blanditiis amet ratione. Exercitationem voluptates dolore. Quia nam esse. Repellendus sed quo. Aut dolorum quisquam. Vitae sed voluptatem. Aut molestiae sit. Quia nihil dolores. Qui et dolore. Illo temporibus dolore. Molestiae eaque eum. Nihil magnam dicta. Quia nihil esse. Vero dolorem aut. Perferendis aut quidem."], ["url", "http://hane.org/toi_rowe"], ["created_at", "2023-10-27 15:19:46.113681"], ["updated_at", "2023-10-27 15:19:46.113681"], ["user_id", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "syndicate wireless partnerships"], ["content", "Enim rerum iste. Ea eos facere. Beatae illo consectetur. Ut quae culpa. Nisi hic vero. Quos ea et. Officiis quia eos. Repellendus nemo nulla. Saepe exercitationem aut. Et sit ut. Quis sit dolor. Ut est vel. Quaerat unde qui. Veritatis architecto sint. Deserunt iste architecto. Culpa pariatur eum. Ea dicta ex. Quas explicabo quibusdam. In placeat eveniet. Minima officia quis. Debitis laudantium tempora. Similique veritatis odit. Eum iste in. Voluptas ullam corrupti. Quibusdam quia sed. Explicabo eligendi in. Voluptatem perferendis autem. Quis aperiam aut. Autem possimus expedita. Rem voluptas tenetur."], ["url", "http://nikolaus-abernathy.net/tamekia"], ["created_at", "2023-10-27 15:19:46.118700"], ["updated_at", "2023-10-27 15:19:46.118700"], ["user_id", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "integrate holistic web services"], ["content", "Dicta dolores quo. Dolor et voluptatem. Repellendus ad facilis. Quae vero iusto. Porro exercitationem voluptatem. Vel dolor voluptatum. Rerum et enim. Est doloribus temporibus. Minima eius illum. Id maxime aut. Velit quis facere. Ducimus rerum voluptatem. Similique quo molestias. Rerum quisquam repellendus. Unde ut deserunt. Libero doloremque veniam. Dolores ut dolore. Fugiat et nam. Officiis non consequatur. Est quis repudiandae. Dolorum perspiciatis qui. Et aliquam sit. Temporibus necessitatibus atque. Aspernatur ex est. Sunt sit molestiae. Totam delectus sit. Libero quasi qui. Laboriosam explicabo ea. Facilis sunt nemo. Unde quia illo."], ["url", "http://jacobs.org/natashia_boehm"], ["created_at", "2023-10-27 15:19:46.123619"], ["updated_at", "2023-10-27 15:19:46.123619"], ["user_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Create (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "strategize ubiquitous networks"], ["content", "Unde totam voluptatem. Dolorem iure ut. Neque sed porro. Nemo ut ab. Voluptates itaque quis. Est harum eos. A ut aspernatur. Consequatur amet sunt. Impedit minima aspernatur. Et et vitae. Incidunt quidem quaerat. Aut et quos. Et et saepe. Iusto magni ullam. Necessitatibus ut explicabo. Sit nulla commodi. Deserunt cupiditate expedita. Officia ea quasi. Reiciendis vitae id. Et qui at. Molestias maiores consequatur. Quod architecto minima. Mollitia aspernatur amet. Voluptas repellat sed. Fugit quam officia. Enim veniam quia. Et dolores quia. Et numquam ex. Quasi non sit. Sed voluptatibus blanditiis."], ["url", "http://senger-koch.io/delana_quitzon"], ["created_at", "2023-10-27 15:19:46.128821"], ["updated_at", "2023-10-27 15:19:46.128821"], ["user_id", 9]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "target innovative e-business"], ["content", "Quia voluptas ut. Et similique porro. Est incidunt qui. Earum voluptas consequuntur. Officia tempore voluptate. Ea repellat unde. Atque placeat consequatur. Perferendis ab blanditiis. Possimus aut sapiente. Autem voluptate repellendus. Ut dignissimos neque. Ut eius nisi. Vel expedita doloribus. Aut odit reiciendis. Repellendus suscipit quaerat. Sunt dolorum magnam. Fugiat eum qui. Esse molestias minima. Dolores quasi in. Accusantium aut hic. Voluptas et error. Dolores magnam quas. Adipisci qui qui. Quo et necessitatibus. Quae nemo ut. Eius vel labore. Et accusantium suscipit. Laborum odit eos. Rerum voluptatem eius. Rerum omnis et."], ["url", "http://kerluke-rempel.info/reggie"], ["created_at", "2023-10-27 15:19:46.134063"], ["updated_at", "2023-10-27 15:19:46.134063"], ["user_id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "monetize B2B synergies"], ["content", "Sunt modi est. Exercitationem molestiae corporis. Veritatis sit et. Aut impedit assumenda. Recusandae exercitationem asperiores. Ut eum dolorum. Id cumque hic. Minima nostrum est. Vel et unde. Nesciunt dolor ex. At officia nemo. Unde incidunt numquam. Autem fugiat molestiae. Laboriosam est optio. Dolores et necessitatibus. Esse quia illum. Soluta totam eum. Eligendi voluptas ut. Fugit inventore vitae. Ducimus voluptatum sint. Culpa omnis dolores. Officia cupiditate voluptatibus. Ut quae modi. Molestias aut ut. Eos quam facilis. Tenetur voluptas et. Sed illum sunt. Molestiae hic et. Voluptatum dolorem tempore. Vel architecto omnis."], ["url", "http://wehner-kunde.co/mariah"], ["created_at", "2023-10-27 15:19:46.139060"], ["updated_at", "2023-10-27 15:19:46.139060"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "disintermediate sexy synergies"], ["content", "Itaque sint exercitationem. Vero nesciunt ut. In ipsa ut. Similique unde assumenda. Illum mollitia magnam. Optio reiciendis deserunt. At repellendus sequi. Reiciendis vero sed. Perspiciatis architecto voluptates. Quis et expedita. Sequi nostrum iure. Modi sed fuga. Cupiditate laboriosam cum. Sed id deleniti. Adipisci explicabo molestiae. Facere eum neque. Deleniti ut voluptas. Doloremque neque est. Recusandae perferendis sed. Voluptas officia unde. Et magni suscipit. Ea repellendus eaque. Inventore unde ut. Ullam voluptas necessitatibus. Consequuntur cum aliquid. Beatae ea aperiam. Ut et laborum. Placeat maxime minus. Sit esse soluta. Ducimus alias rerum."], ["url", "http://gottlieb.com/jonnie"], ["created_at", "2023-10-27 15:19:46.144371"], ["updated_at", "2023-10-27 15:19:46.144371"], ["user_id", 10]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "url", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "morph distributed e-services"], ["content", "Nulla eius sunt. Ipsum quos odit. Unde dolore ut. Accusantium sit autem. Perferendis magnam quis. Eum quaerat occaecati. Occaecati voluptatem ad. Laborum et corrupti. Quam natus deserunt. Similique alias autem. Deleniti enim repellendus. Cumque reiciendis magnam. Dolorem unde quis. Rem tempora illum. Nostrum voluptates qui. Fuga illo eligendi. Numquam pariatur quibusdam. Occaecati est ducimus. Assumenda id debitis. Dolorum dolores est. Nemo nostrum possimus. Alias repellat consequatur. Ad corrupti autem. Consequatur est labore. Fugiat harum tempore. Possimus dolores sequi. Nobis velit inventore. Fuga itaque eaque. Impedit quia et. Voluptatem esse maxime."], ["url", "http://emard.com/javier.runte"], ["created_at", "2023-10-27 15:19:46.149424"], ["updated_at", "2023-10-27 15:19:46.149424"], ["user_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mComment Create (1.4ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Ab aut blanditiis. Ea suscipit velit. Non est necessitatibus. Quaerat incidunt non. Omnis iusto officiis. Eligendi nostrum enim. Qui tempore voluptatibus. Cumque commodi pariatur. Architecto excepturi quis. Praesentium dolorem repellendus."], ["created_at", "2023-10-27 15:19:46.160553"], ["updated_at", "2023-10-27 15:19:46.160553"], ["user_id", 8], ["post_id", 21]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Eos ipsa est. Earum et ipsa. Velit dolore facere. Cupiditate eveniet doloremque. Temporibus accusamus dolores. Aut non suscipit. Fugiat repellendus aut. Ut nisi minima. Odit excepturi esse. Quis consequatur minus."], ["created_at", "2023-10-27 15:19:46.166309"], ["updated_at", "2023-10-27 15:19:46.166309"], ["user_id", 3], ["post_id", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Rerum ipsa corporis. Ut eligendi sit. Voluptas voluptas sit. Omnis dolorem repellendus. Suscipit voluptatum quaerat. Est vel autem. Odio beatae eaque. Dolores eveniet qui. Vel itaque perferendis. Natus qui aut."], ["created_at", "2023-10-27 15:19:46.170652"], ["updated_at", "2023-10-27 15:19:46.170652"], ["user_id", 1], ["post_id", 9]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Magni pariatur accusamus. Sunt nobis consequuntur. Tenetur modi praesentium. Ducimus voluptas inventore. Animi sint quos. Sit quae culpa. Cum ut ullam. Expedita temporibus rerum. Est est eligendi. Repellendus similique eaque."], ["created_at", "2023-10-27 15:19:46.175022"], ["updated_at", "2023-10-27 15:19:46.175022"], ["user_id", 10], ["post_id", 16]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Ea commodi ea. Optio nostrum nisi. Eum aut tenetur. Est voluptatem numquam. Fuga est suscipit. Recusandae et possimus. Qui voluptates accusamus. Rerum ex et. Hic doloribus libero. Omnis facere nihil."], ["created_at", "2023-10-27 15:19:46.179518"], ["updated_at", "2023-10-27 15:19:46.179518"], ["user_id", 10], ["post_id", 16]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Quasi est minus. Est voluptatem ut. Est inventore nihil. Maiores assumenda aut. Illo distinctio ad. Sit saepe optio. Et nulla explicabo. Blanditiis numquam esse. Aspernatur eos in. Quia et repellendus."], ["created_at", "2023-10-27 15:19:46.183975"], ["updated_at", "2023-10-27 15:19:46.183975"], ["user_id", 5], ["post_id", 14]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Ut dolorum sint. Illo qui perferendis. Placeat omnis animi. Ea dolore nihil. Temporibus itaque repudiandae. Et eos blanditiis. Ea maxime ratione. Et consequuntur laudantium. Voluptatibus qui debitis. Asperiores quaerat similique."], ["created_at", "2023-10-27 15:19:46.189236"], ["updated_at", "2023-10-27 15:19:46.189236"], ["user_id", 2], ["post_id", 5]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Facilis ducimus vitae. Veritatis esse aut. Harum a incidunt. Delectus quia labore. Et quis accusantium. Fugit enim est. Cum dignissimos repudiandae. Ducimus non laudantium. Omnis vitae aut. Culpa ut assumenda."], ["created_at", "2023-10-27 15:19:46.194907"], ["updated_at", "2023-10-27 15:19:46.194907"], ["user_id", 1], ["post_id", 18]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Numquam fugit magnam. Omnis ratione esse. Quia tenetur ducimus. Ea nobis sint. Doloremque error omnis. Atque autem qui. Qui facilis quos. Iusto est id. Nesciunt non eos. Maiores eum vel."], ["created_at", "2023-10-27 15:19:46.199019"], ["updated_at", "2023-10-27 15:19:46.199019"], ["user_id", 7], ["post_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Occaecati voluptatem mollitia. Voluptatem quisquam sint. At eum nobis. Enim necessitatibus et. Omnis dicta molestiae. Accusamus reprehenderit voluptas. Omnis nulla minus. Iusto et voluptatem. Et tenetur facere. Sed eos autem."], ["created_at", "2023-10-27 15:19:46.203113"], ["updated_at", "2023-10-27 15:19:46.203113"], ["user_id", 5], ["post_id", 10]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Quibusdam facere architecto. Et id error. Dicta voluptatum qui. Consequatur consequuntur ipsa. Quibusdam quis incidunt. Eius eos voluptate. Odit delectus temporibus. Explicabo ex non. Sint occaecati quia. Suscipit vel dolores."], ["created_at", "2023-10-27 15:19:46.207409"], ["updated_at", "2023-10-27 15:19:46.207409"], ["user_id", 1], ["post_id", 7]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Mollitia cum aut. Minus voluptatem nulla. Et sequi numquam. Et illo est. Voluptas id natus. Quia iusto quaerat. Quisquam ipsam eius. Fugiat reprehenderit earum. Est sed voluptatem. Ut expedita officiis."], ["created_at", "2023-10-27 15:19:46.211503"], ["updated_at", "2023-10-27 15:19:46.211503"], ["user_id", 10], ["post_id", 24]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Voluptas amet quia. Minima nam alias. Natus odio qui. Facilis doloremque ducimus. Fuga enim explicabo. Iure dolorem et. Qui laboriosam consequatur. Autem iste totam. Autem error veritatis. Odit fugiat voluptatum."], ["created_at", "2023-10-27 15:19:46.215545"], ["updated_at", "2023-10-27 15:19:46.215545"], ["user_id", 9], ["post_id", 12]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Aliquam facilis aut. Esse asperiores amet. Error sit ut. Architecto facilis doloremque. Et eaque qui. Amet cum quia. Dolorum vitae reiciendis. Aliquam rerum minima. Illum tempore vel. Dicta doloribus culpa."], ["created_at", "2023-10-27 15:19:46.219629"], ["updated_at", "2023-10-27 15:19:46.219629"], ["user_id", 4], ["post_id", 4]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Fugit voluptatem sunt. Illum possimus cupiditate. Est qui nihil. Et enim ea. Omnis aspernatur qui. Quis odio perspiciatis. Reprehenderit voluptas et. Rerum veniam expedita. Fuga quae non. Rerum perspiciatis commodi."], ["created_at", "2023-10-27 15:19:46.224179"], ["updated_at", "2023-10-27 15:19:46.224179"], ["user_id", 8], ["post_id", 15]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Architecto fuga et. Iure perferendis magnam. Cumque ut officiis. Laborum nihil aut. Et nostrum quo. Ad numquam ut. Laudantium eos aliquid. Provident debitis iusto. Rerum libero occaecati. Eum asperiores veniam."], ["created_at", "2023-10-27 15:19:46.228654"], ["updated_at", "2023-10-27 15:19:46.228654"], ["user_id", 4], ["post_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Consequatur quasi reiciendis. Dolores et voluptate. Porro numquam quae. Eos dolores error. Voluptas fugiat odio. Iste nemo nihil. Qui sit sunt. Quia omnis eum. Reprehenderit inventore laudantium. Dicta sunt qui."], ["created_at", "2023-10-27 15:19:46.233053"], ["updated_at", "2023-10-27 15:19:46.233053"], ["user_id", 6], ["post_id", 24]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Ratione dolorem asperiores. Consequatur amet veniam. Qui id sit. Assumenda et necessitatibus. Eos aut quaerat. Sint iste laborum. Et dignissimos facilis. Aut hic exercitationem. Similique ut eligendi. Non doloremque modi."], ["created_at", "2023-10-27 15:19:46.237394"], ["updated_at", "2023-10-27 15:19:46.237394"], ["user_id", 8], ["post_id", 22]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Aut incidunt quos. Nostrum alias totam. Aut veniam sunt. Doloremque earum quas. Quam voluptas nam. Voluptatem rerum nihil. Cum error quibusdam. Ullam sit est. Aspernatur rerum qui. Quia cupiditate adipisci."], ["created_at", "2023-10-27 15:19:46.241882"], ["updated_at", "2023-10-27 15:19:46.241882"], ["user_id", 10], ["post_id", 23]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mComment Create (0.6ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Distinctio facilis quam. Vero necessitatibus culpa. Quia maiores sit. Suscipit illo accusantium. Est voluptatum exercitationem. Perferendis vel porro. Consectetur qui animi. Qui autem in. Ea temporibus non. Est et officiis."], ["created_at", "2023-10-27 15:19:46.246244"], ["updated_at", "2023-10-27 15:19:46.246244"], ["user_id", 10], ["post_id", 23]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Nemo nam maxime. Animi velit laudantium. Officiis omnis ex. Perspiciatis id vel. Minima non esse. Qui quod exercitationem. Debitis ullam ut. Dolore nihil eos. Dolorem placeat corporis. Expedita aliquid eum."], ["created_at", "2023-10-27 15:19:46.250706"], ["updated_at", "2023-10-27 15:19:46.250706"], ["user_id", 6], ["post_id", 15]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Reiciendis nobis error. Consequatur quia et. Vitae animi in. Explicabo voluptate placeat. Est quibusdam quo. Enim et sint. Est sed possimus. Quas recusandae qui. Voluptatum vero ea. Totam delectus nihil."], ["created_at", "2023-10-27 15:19:46.254791"], ["updated_at", "2023-10-27 15:19:46.254791"], ["user_id", 6], ["post_id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Aliquid et voluptate. Sunt totam sed. Ut quibusdam autem. Perferendis quidem eos. Tenetur sit beatae. Vel eius eum. Et enim officia. Suscipit porro quae. Sint quasi beatae. Quas aut nemo."], ["created_at", "2023-10-27 15:19:46.258910"], ["updated_at", "2023-10-27 15:19:46.258910"], ["user_id", 8], ["post_id", 3]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Aperiam harum suscipit. Dolorem fugit modi. Voluptas magni tempore. Ipsa consequatur quod. Provident animi quis. Ab ut inventore. Eius ipsa ut. Et totam dolorem. Enim aliquam eius. Illo totam itaque."], ["created_at", "2023-10-27 15:19:46.263359"], ["updated_at", "2023-10-27 15:19:46.263359"], ["user_id", 5], ["post_id", 3]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Fuga qui modi. Quos atque et. Ut enim excepturi. Quibusdam velit aut. Et explicabo quasi. Eos dicta quis. A harum voluptas. Quos voluptatem tenetur. Omnis rerum accusamus. Error aut id."], ["created_at", "2023-10-27 15:19:46.267365"], ["updated_at", "2023-10-27 15:19:46.267365"], ["user_id", 6], ["post_id", 12]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Earum quisquam quis. A saepe explicabo. Ab labore mollitia. Qui assumenda iste. Nobis et necessitatibus. Sit possimus dignissimos. Vitae eum explicabo. Culpa nihil aut. Quos voluptatem voluptas. Error non assumenda."], ["created_at", "2023-10-27 15:19:46.271573"], ["updated_at", "2023-10-27 15:19:46.271573"], ["user_id", 8], ["post_id", 21]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Cum velit possimus. Omnis et eius. Incidunt vel non. Occaecati facere ullam. Voluptatem totam nihil. Corrupti aut odit. Mollitia veniam optio. Sit officia incidunt. Odio quae repellat. Officia eaque tempora."], ["created_at", "2023-10-27 15:19:46.275751"], ["updated_at", "2023-10-27 15:19:46.275751"], ["user_id", 2], ["post_id", 21]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Laboriosam commodi id. Nemo et qui. Dicta illo rerum. Inventore labore et. Cupiditate veritatis deleniti. Dolores ratione ut. Quo est ipsam. Qui non dolor. Perferendis eum laboriosam. Consequatur qui praesentium."], ["created_at", "2023-10-27 15:19:46.280126"], ["updated_at", "2023-10-27 15:19:46.280126"], ["user_id", 9], ["post_id", 7]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mComment Create (0.8ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Tempore odio tempora. Harum porro incidunt. Maiores iusto eum. Ab distinctio ipsa. Earum sit enim. Ea quia nam. Omnis rem autem. Iusto tempora est. Ex porro ut. Similique nihil soluta."], ["created_at", "2023-10-27 15:19:46.284350"], ["updated_at", "2023-10-27 15:19:46.284350"], ["user_id", 10], ["post_id", 12]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Consectetur eveniet ea. Consequuntur dolor molestias. Veritatis eos iusto. Aut et quo. Maiores deleniti quae. Totam pariatur ducimus. Suscipit illo ipsa. Repellat ut magni. Rem impedit est. Labore dicta et."], ["created_at", "2023-10-27 15:19:46.289161"], ["updated_at", "2023-10-27 15:19:46.289161"], ["user_id", 4], ["post_id", 5]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Et nam repellendus. Et quia suscipit. Aliquid est deserunt. Nisi ipsam rerum. At aut amet. Culpa aspernatur est. In maxime eos. Libero eveniet quae. Repellat qui doloremque. Ipsum earum dolores."], ["created_at", "2023-10-27 15:19:46.293800"], ["updated_at", "2023-10-27 15:19:46.293800"], ["user_id", 9], ["post_id", 4]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Alias minima error. Perspiciatis quo aut. Porro velit amet. Sunt eos qui. Inventore sit quaerat. Est nostrum eaque. Ad nesciunt consequatur. Quos est pariatur. Quam dolorem debitis. Nam fugiat consequuntur."], ["created_at", "2023-10-27 15:19:46.298416"], ["updated_at", "2023-10-27 15:19:46.298416"], ["user_id", 8], ["post_id", 9]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Culpa ut est. Perferendis veniam blanditiis. Dolorum nesciunt et. Placeat commodi harum. Magnam fugiat expedita. Consequatur dolorem voluptas. Repellat quisquam quam. Pariatur et rerum. Ut laudantium magni. Aperiam velit consequatur."], ["created_at", "2023-10-27 15:19:46.302766"], ["updated_at", "2023-10-27 15:19:46.302766"], ["user_id", 10], ["post_id", 19]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Ipsam voluptas et. Voluptate quia quis. Quas non molestiae. Aut veritatis amet. Esse aut exercitationem. Facilis non cumque. Nisi laboriosam odio. Exercitationem alias quisquam. Inventore laudantium labore. Consequatur eveniet eligendi."], ["created_at", "2023-10-27 15:19:46.307239"], ["updated_at", "2023-10-27 15:19:46.307239"], ["user_id", 1], ["post_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Nisi dolores at. Odit architecto ut. Rerum perspiciatis cumque. Consectetur aperiam nemo. Ab ut expedita. Quibusdam omnis in. Quaerat laboriosam fuga. Tenetur labore iste. In rerum iusto. Error recusandae autem."], ["created_at", "2023-10-27 15:19:46.311708"], ["updated_at", "2023-10-27 15:19:46.311708"], ["user_id", 2], ["post_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Sint aut odit. Ad inventore harum. Quia ut corrupti. Vel quis accusantium. Expedita dolorem consequatur. Occaecati rem quo. Aperiam voluptatem quidem. Voluptatibus vel enim. Est repellat illum. Sit inventore iusto."], ["created_at", "2023-10-27 15:19:46.316803"], ["updated_at", "2023-10-27 15:19:46.316803"], ["user_id", 10], ["post_id", 19]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Tempora nobis ad. Enim veritatis totam. Aliquid ab veniam. Officia aut et. Sunt earum porro. Dolor ut eaque. Qui consequatur maxime. Et minus rem. Hic alias corrupti. Vel quam laborum."], ["created_at", "2023-10-27 15:19:46.321060"], ["updated_at", "2023-10-27 15:19:46.321060"], ["user_id", 3], ["post_id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Eos rem perferendis. Adipisci aspernatur omnis. Ducimus et optio. Quam iure tenetur. Est aut aperiam. Est voluptatibus ratione. Aperiam odio vel. Fugiat perspiciatis et. Et quasi dolorem. Eius in dolor."], ["created_at", "2023-10-27 15:19:46.325375"], ["updated_at", "2023-10-27 15:19:46.325375"], ["user_id", 8], ["post_id", 11]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Impedit molestiae alias. Ipsum nihil ut. Adipisci et officia. Qui dicta qui. Ipsam et inventore. Iste dicta dolorem. Consequuntur sapiente sit. Aspernatur quibusdam pariatur. Ab sint cumque. Omnis sit occaecati."], ["created_at", "2023-10-27 15:19:46.330193"], ["updated_at", "2023-10-27 15:19:46.330193"], ["user_id", 9], ["post_id", 5]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Perspiciatis reiciendis omnis. Unde quia aut. Laborum unde fuga. Et qui nulla. Ad ratione recusandae. Doloribus eum quia. Totam accusantium temporibus. Dolore autem est. Possimus aut et. Quia ullam omnis."], ["created_at", "2023-10-27 15:19:46.334528"], ["updated_at", "2023-10-27 15:19:46.334528"], ["user_id", 10], ["post_id", 15]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Ad rerum suscipit. Optio aut eos. Tenetur quasi eum. Autem voluptatem laboriosam. Velit molestias modi. Esse alias ut. Veritatis cumque sint. Dignissimos reprehenderit laborum. Aspernatur officiis velit. Aut similique laborum."], ["created_at", "2023-10-27 15:19:46.338890"], ["updated_at", "2023-10-27 15:19:46.338890"], ["user_id", 1], ["post_id", 19]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Eum voluptatum itaque. Occaecati inventore provident. Et itaque placeat. Non aspernatur illum. Aut nihil assumenda. Quo beatae pariatur. Aliquam totam ratione. Vitae aliquid ut. Autem totam sint. Ut veniam maiores."], ["created_at", "2023-10-27 15:19:46.343383"], ["updated_at", "2023-10-27 15:19:46.343383"], ["user_id", 10], ["post_id", 11]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Voluptatibus occaecati et. Est beatae sit. Deleniti iure pariatur. Nulla placeat omnis. Magni ut dolores. Aut voluptatum placeat. Dolor fugit voluptatem. At omnis provident. Fugiat nobis et. Soluta qui aliquid."], ["created_at", "2023-10-27 15:19:46.347817"], ["updated_at", "2023-10-27 15:19:46.347817"], ["user_id", 1], ["post_id", 15]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Voluptas nesciunt dolore. Sit necessitatibus molestias. Odio ut quisquam. Et ea eaque. Aspernatur culpa non. Quibusdam sed maiores. Aut asperiores aut. Ullam quis accusamus. Illo ut et. Quisquam qui optio."], ["created_at", "2023-10-27 15:19:46.351980"], ["updated_at", "2023-10-27 15:19:46.351980"], ["user_id", 7], ["post_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Aut dolorem ut. Pariatur in et. Aut soluta reiciendis. Nobis consequuntur eum. Odit quae occaecati. Ut harum unde. Voluptatum eligendi illum. Natus est ex. Explicabo sapiente error. Tenetur aperiam dolores."], ["created_at", "2023-10-27 15:19:46.356324"], ["updated_at", "2023-10-27 15:19:46.356324"], ["user_id", 1], ["post_id", 18]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Assumenda sapiente impedit. Laborum repellat aspernatur. Non rerum temporibus. Eaque voluptatem sunt. Labore sunt laboriosam. Et dolor tenetur. Autem nihil id. Fugiat eum ut. Rem possimus et. Accusamus natus pariatur."], ["created_at", "2023-10-27 15:19:46.360676"], ["updated_at", "2023-10-27 15:19:46.360676"], ["user_id", 1], ["post_id", 16]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Perferendis omnis est. Magnam asperiores molestiae. Et consectetur sunt. Modi fuga velit. Facilis sed labore. Quia molestiae dolores. Repellat earum quo. Eos quia libero. Labore non eveniet. Non vitae quibusdam."], ["created_at", "2023-10-27 15:19:46.365215"], ["updated_at", "2023-10-27 15:19:46.365215"], ["user_id", 5], ["post_id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Voluptatem vero dolor. Ullam ducimus fuga. Debitis et voluptas. Qui minus et. Maxime iusto dolores. In eum et. Dolorem aut earum. Similique ullam enim. Unde deserunt sit. Consequatur ex illo."], ["created_at", "2023-10-27 15:19:46.369487"], ["updated_at", "2023-10-27 15:19:46.369487"], ["user_id", 6], ["post_id", 18]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Nihil ipsam omnis. Numquam omnis sed. Culpa incidunt quaerat. Dolorum eos tenetur. Ad sunt quis. Deleniti dignissimos necessitatibus. Molestias aut quibusdam. Ad sed harum. Corrupti excepturi sit. Tempore id perferendis."], ["created_at", "2023-10-27 15:19:46.373704"], ["updated_at", "2023-10-27 15:19:46.373704"], ["user_id", 2], ["post_id", 20]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("content", "created_at", "updated_at", "user_id", "post_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Omnis ea quas. Sunt dignissimos quae. Eum ab dolorum. Reprehenderit totam ut. Beatae eum quam. Nisi quia voluptatem. Ducimus eligendi et. Omnis perspiciatis voluptas. In expedita facilis. Dolorum culpa eos."], ["created_at", "2023-10-27 15:19:46.377909"], ["updated_at", "2023-10-27 15:19:46.377909"], ["user_id", 10], ["post_id", 23]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:20:02 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (12.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.7ms | Allocations: 7346)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 1158)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 222)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 398)
+  Rendered layout layouts/application.html.erb (Duration: 157.7ms | Allocations: 97797)
+Completed 200 OK in 181ms (Views: 144.3ms | ActiveRecord: 28.0ms | Allocations: 104442)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:33:41 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (5.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2731)
+  Rendered layout layouts/application.html.erb (Duration: 744.9ms | Allocations: 27710)
+Completed 500 Internal Server Error in 830ms (ActiveRecord: 65.5ms | Allocations: 31555)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...width: 768px) {": expected "}", was ".global-container"
+        on line 18:39 of app/assets/stylesheets/application.scss
+>> @media screen and (max-width: 768px) {
+
+   --------------------------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:9
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:33:49 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2329)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1019)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 205)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 5444.5ms | Allocations: 77485)
+Completed 200 OK in 5447ms (Views: 5444.0ms | ActiveRecord: 1.0ms | Allocations: 77866)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:35:49 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1020)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 703)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 11496)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 12387)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:35:57 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 10786)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 11067)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:36:06 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2290)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 12480)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.3ms | Allocations: 12815)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:36:53 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 9.5ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 10749)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 11013)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:37:51 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 999)
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1012)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 205)
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 12381)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms | Allocations: 13254)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:38:28 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 653)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 10925)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 11208)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:38:38 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 651)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 10713)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 10975)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:38:44 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 644)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 653)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 10711)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 10974)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 17:46:42 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (2.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2731)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 709)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 13466)
+Completed 200 OK in 50ms (Views: 27.9ms | ActiveRecord: 11.9ms | Allocations: 17081)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:46:45 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 646)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 653)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 262)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 10924)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 11209)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:53:16 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5267.4ms | Allocations: 119749)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 1012)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 205)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 397)
+  Rendered layout layouts/application.html.erb (Duration: 5279.8ms | Allocations: 131249)
+Completed 200 OK in 5285ms (Views: 5283.0ms | Allocations: 132123)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:54:09 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1080)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 5163.2ms | Allocations: 79830)
+Completed 200 OK in 5164ms (Views: 5163.6ms | Allocations: 80108)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 17:54:41 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1080)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 5151.5ms | Allocations: 81997)
+Completed 200 OK in 5153ms (Views: 5151.9ms | Allocations: 82256)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-27 18:01:10 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2736)
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 708)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 13291)
+Completed 200 OK in 112ms (Views: 46.3ms | ActiveRecord: 8.7ms | Allocations: 16920)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 18:01:12 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1080)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 11154)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 11438)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 18:01:28 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1081)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 11146)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 11408)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 18:02:30 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1080)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 48.3ms | Allocations: 11268)
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.0ms | Allocations: 11531)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 18:02:34 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1084)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 11352)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 11616)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-10-27 18:02:44 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 190.0ms | Allocations: 287799)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 694)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 200.3ms | Allocations: 298265)
+Completed 200 OK in 222ms (Views: 202.2ms | ActiveRecord: 12.5ms | Allocations: 304863)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-10-27 18:02:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2593)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 694)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 13060)
+Completed 200 OK in 33ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 14547)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 18:02:55 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1084)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 661)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 11411)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 11711)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-27 18:04:22 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1080)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 11142)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 11406)
+
+

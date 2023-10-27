@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsSharePosts</title>
+    <title>Informed, l'actualité par la communauté pour la communauté</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,9 +11,11 @@
   </head>
 
   <body>
-    <%= render "shared/navbar" %>
-    <%= render "shared/flashes" %>
-      <%= yield %>
-    <%= render "shared/footer" %>
+    <div class="global-container">
+      <%= render "shared/navbar" %>
+      <%= render "shared/flashes" %>
+        <%= yield %>
+      <%= render "shared/footer" %>
+    </div>
   </body>
 </html>
