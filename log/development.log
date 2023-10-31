@@ -15096,3 +15096,262 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 11406)
 
 
+Started GET "/" for 127.0.0.1 at 2023-10-31 16:37:23 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 134.7ms | Allocations: 63835)
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 1150)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 222)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 160.8ms | Allocations: 92580)
+Completed 200 OK in 169ms (Views: 163.1ms | ActiveRecord: 0.0ms | Allocations: 96883)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-31 16:37:45 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (2.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 7053)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 711)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 17830)
+Completed 200 OK in 40ms (Views: 24.3ms | ActiveRecord: 9.3ms | Allocations: 21070)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-31 16:37:47 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1083)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 11239)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 11545)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-31 16:38:10 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2287)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 12620)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms | Allocations: 12958)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-10-31 16:38:56 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2234)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 12458)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.3ms | Allocations: 12771)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:39:30 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1083)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 11031)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 11293)
+
+
+Started GET "/posts" for ::1 at 2023-10-31 16:39:56 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2227)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 12589)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 12897)
+
+
+Started GET "/posts" for ::1 at 2023-10-31 16:41:22 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2227)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 12390)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.4ms | Allocations: 12694)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:41:25 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1085)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 11301)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 11567)
+
+
+Started GET "/posts" for ::1 at 2023-10-31 16:42:59 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2227)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 12540)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.7ms | Allocations: 12847)
+
+
+Started GET "/posts" for ::1 at 2023-10-31 16:48:44 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2320)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 5364.4ms | Allocations: 84138)
+Completed 200 OK in 5394ms (Views: 5364.1ms | ActiveRecord: 7.4ms | Allocations: 87446)
+
+
+Started GET "/posts" for ::1 at 2023-10-31 16:50:21 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2227)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 12389)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.8ms | Allocations: 12694)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:50:29 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1085)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 11108)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 11372)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:52:11 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1081)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 655)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 5240.2ms | Allocations: 82049)
+Completed 200 OK in 5242ms (Views: 5240.8ms | ActiveRecord: 0.0ms | Allocations: 82312)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:52:23 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1081)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 4994.6ms | Allocations: 81981)
+Completed 200 OK in 4995ms (Views: 4995.0ms | ActiveRecord: 0.0ms | Allocations: 82245)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:53:04 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1081)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 5143.4ms | Allocations: 81987)
+Completed 200 OK in 5144ms (Views: 5143.7ms | ActiveRecord: 0.0ms | Allocations: 82250)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:53:37 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1081)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 652)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 5151.8ms | Allocations: 82182)
+Completed 200 OK in 5153ms (Views: 5152.2ms | ActiveRecord: 0.0ms | Allocations: 82444)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:54:15 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1081)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 654)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 5130.4ms | Allocations: 82179)
+Completed 200 OK in 5132ms (Views: 5130.9ms | ActiveRecord: 0.0ms | Allocations: 82442)
+
+
+Started GET "/" for ::1 at 2023-10-31 16:56:08 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1467)
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1012)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 205)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 397)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 12916)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 13798)
+
+
+Started GET "/posts" for ::1 at 2023-10-31 16:57:35 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2726)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 708)
+  Rendered shared/_flashes.html.erb (Duration: 0.2ms | Allocations: 35)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 13422)
+Completed 200 OK in 65ms (Views: 29.4ms | ActiveRecord: 14.5ms | Allocations: 17171)
+
+

@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Informed, l'actualité par la communauté pour la communauté</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -14,6 +14,9 @@
     <div class="global-container">
       <%= render "shared/navbar" %>
       <%= render "shared/flashes" %>
+    <div class="alert-device">
+      <p>Le site n'est pas encore optimisé pour les mobiles, veuillez nous excuser pour la gêne occasionnée.</p>
+    </div>
         <%= yield %>
       <%= render "shared/footer" %>
     </div>

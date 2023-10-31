@@ -61,6 +61,26 @@
 //   overflow: hidden;
 // }
 
+.alert-device{
+  display: none;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 3;
+}
+
+.alert-device p{
+  color: $white;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 @media (max-width: 768px) {
   .hero-title{
     font-size: 2rem;
@@ -76,6 +96,12 @@
   }
 
   .hero-background-mobile{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .alert-device{
     display: block;
   }
 }
